@@ -29,7 +29,6 @@ Aquí el sistema: Comienza en un origen, explora todos los nodos o rutas como po
 
 while cola_rutas:
     tiempo, actual, ruta, trasbordo = heapq.heappop(cola_rutas)
-    
     if actual in visitados:
         continue
     visitados.add(actual)
